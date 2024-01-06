@@ -47,6 +47,12 @@ app.put("/", function(req,res){
     res.json({});
     })
 app.delete("/", function(req,res){
+if (condition) {
+    
+}
+
+
+
    let newKidneys =[];
     
     for (let i = 0; i < users[0].kidneys.length; i++) {
